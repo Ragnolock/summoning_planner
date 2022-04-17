@@ -1,0 +1,1 @@
+fetch('https://apps.runescape.com/runemetrics/profile/profile?user=iamragnolock').then(res => res.json()).then(data => console.log(data))
